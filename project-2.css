@@ -1,0 +1,357 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
+body {
+  font-family: "Assistant", sans-serif;
+}
+
+/* header-nav-bar */
+.container-fluid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li,
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.logo-img {
+  width: 65px;
+  border-radius: 50px;
+  order: 3;
+  margin-left: 25%;
+  margin-bottom: 5px;
+}
+
+.logo-name {
+  order: 2;
+  margin-right: 38%;
+  margin-top: 5px;
+  font-family: "Satisfy", sans-serif;
+  color: black;
+}
+
+.nav-link {
+  list-style: none;
+  margin-right: 8px;
+  padding-right: 40px;
+}
+
+.nav-link li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.navbar-toggler-icon{
+  width: 65px ;
+  background-image: url(./images-protfolio/navbar.png);
+
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* תיק עבודות */
+.container-grid {
+  display: grid;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./images-protfolio/point.jpeg);
+   background-color: #b3f3f7;
+  background-blend-mode: multiply;
+  height: 350px;
+  object-fit: fill;
+  align-items: center;
+  justify-items: center;
+}
+
+.p-grid {
+  margin-bottom: 35%;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* אייקונים */
+.icons-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-bottom: 1px solid white;
+  box-shadow: 1px lightgray;
+  gap: 25px;
+}
+
+.logos {
+  width: 100px;
+
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* קצת עליי */
+.about-me-container {
+  display: flex;
+  gap: 25px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.about-me-container img {
+  width: 250px;
+}
+
+.texts {
+  margin-bottom: 75px;
+  color: black;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-about {
+  transform: scale(0.9);
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* קורות חיים */
+.summary-life {
+  background-color: #2f2e2e;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+}
+
+.pdf-logo {
+  width: 6%;
+  margin-right: 20px;
+  rotate: 329deg;
+  padding-bottom: 25px;
+}
+
+.button-summary-life {
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  width: 300px;
+  height: 45px;
+  border-radius: 115px;
+  color: black;
+  font-weight: 600;
+  background-color: #1ae0ec;
+  border: none;
+  margin-bottom: 25px;
+  padding-top: 9px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* עבודות נבחרות */
+.lightgray {
+  background: linear-gradient(0deg, #91C8E4 0%, #F6F4EB 22%, #F6F4EB 90%, #91C8E4 100%);
+
+}
+
+h3 {
+  text-align: center;
+  font-size: 32px;
+}
+
+.grid-cards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding-bottom: 5rem;
+}
+
+.grid1 img {
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding-bottom: 1.5rem;
+}
+
+.grid1 {
+  background-color: white;
+  width: 15rem;
+  min-height: 20rem;
+  border-radius: 10px;
+}
+
+.big-card {
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-mini {
+  width: 10rem;
+  height: 100%;
+  text-align: center;
+  padding-top: auto;
+}
+
+h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.butt {
+  background-color: #1addef;
+  padding: 7px 15px;
+  border-radius: 30px;
+  border: none;
+  margin-bottom: 25px;
+  width: 165px;
+  height: 100%;
+}
+
+.butt2 {
+  border: none;
+  background-color: #2c2c2c;
+  color: white;
+}
+
+.otef-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* צור קשר */
+.form-container {
+  display: grid;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./images/bg.jpeg);
+  background-color: #b3f3f7;
+  background-blend-mode: multiply;
+  height: 550px;
+  object-fit: fill;
+  align-items: center;
+  justify-content: center;
+}
+
+h5 {
+  font-size: 1.5rem;
+}
+
+.form-container p {
+  font-size: 1.1rem;
+}
+
+label {
+  color: #2c2c2c;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+input {
+  background-color: #f6f6f6;
+  border-bottom: 2px solid #020253;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  width: 280px;
+  height: 25px;
+}
+
+textarea {
+  height: 80px;
+  width: 280px;
+  border-bottom: 1px solid lightgray;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+}
+
+.form-button {
+  background-color: #1addef;
+  border: none;
+  width: 85px;
+  height: 25px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* אייקונים פוטר */
+.footer-icons {
+  display: flex;
+  background-color: #2f2e2e;
+  color: white;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.footer-icons img {
+  width: 19px;
+  margin: auto;
+}
+
+.rights {
+  background-color: #2c2c2c;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rights span {
+  order: 3;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* media quary */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media screen and (max-width: 600px) {
+  .about-me-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .summary-life {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .pdf-logo {
+    width: 20%;
+  }
+
+  .button-summary-life {
+    margin-right: 50px;
+  }
+
+  .grid-cards {
+    grid-template-columns: auto;
+  }
+
+  .form-container {
+    justify-content: center;
+    margin: 0;
+  }
+
+  .footer-icons {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .rights {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
